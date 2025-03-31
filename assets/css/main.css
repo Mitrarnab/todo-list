@@ -498,6 +498,10 @@ button {
 }
 
 @media(max-width:767px) {
+    .inputBox {
+        flex-direction: column;
+    }
+
     footer {
         margin: auto 10px;
     }
@@ -519,10 +523,6 @@ button {
         left: 43px;
     }
 
-    .inputBox {
-        flex-direction: column;
-    }
-
     .todoCard {
         padding: 20px;
         padding-top: 30px;
@@ -541,7 +541,7 @@ button {
     button {
         margin-left: 10px;
         font-size: 16px;
-        padding: 5px 25px;
+        padding: 5px 15px;
     }
 
     .list {
@@ -560,7 +560,7 @@ button {
 
     .taskCheckbox,
     .taskCheckbox:focus {
-        margin-left: 10px;
+        margin-left: 5px;
     }
 
     .deleteSelectedBtn {
